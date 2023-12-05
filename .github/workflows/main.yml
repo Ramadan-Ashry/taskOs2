@@ -7,7 +7,7 @@ on:
 
     jobs:
      build:
-      runs-on:windo
+      runs-on: ubuntu-latest
 
         steps:
         - name: 'testing github action'
