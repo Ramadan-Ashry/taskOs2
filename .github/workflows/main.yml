@@ -4,12 +4,13 @@ on:
     -master 
 
 
-
-      runs-on: ubuntu-latest
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
         steps:
-        - name: 'testing github action'
+        - name: 'Testing Github action'
            run: pwd
-         - name : 'testing printing'
+        - name : 'Testing Printing'
           run: echo Ramadan
 
