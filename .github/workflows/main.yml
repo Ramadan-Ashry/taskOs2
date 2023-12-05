@@ -6,7 +6,7 @@ on:
 
 
      build:
-      runs-on: windows
+      runs-on: ubuntu-latest
 
         steps:
         - name: 'testing github action'
